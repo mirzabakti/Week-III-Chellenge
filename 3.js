@@ -1,3 +1,6 @@
+// Note:
+// Dilarang menggunakan build-in function
+
 function sorting(array) {
   // function ini akan mengembalikan sekumpulan number, string, dan boolean yang bernilai truly dan terurut secara naik (A-Z)
   // your code here

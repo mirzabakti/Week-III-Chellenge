@@ -1,3 +1,6 @@
+// Note:
+// Dilarang menggunakan build-in function
+
 function filter(array) {
   // Function ini akan mengembalikan resep sesuai dengan permintaan
   const recipes = [
