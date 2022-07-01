@@ -1,6 +1,6 @@
 // Note:
 // Dilarang menggunakan build-in function
-// Diperbolehkan menggunakan converter string
+// Diperbolehkan menggunakan converter string, push, pop, unshift, dan shift
 
 function switchString(string) {
   // Fungsi ini akan mengembalikan string yang diterima menjadi kebalikannya.
