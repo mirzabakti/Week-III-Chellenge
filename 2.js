@@ -1,5 +1,6 @@
 // Note:
 // Dilarang menggunakan build-in function
+// Diperbolehkan menggunakan converter string, push, pop, unshift, dan shift
 
 function filter(array) {
   // Function ini akan mengembalikan resep sesuai dengan permintaan

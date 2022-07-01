@@ -1,5 +1,6 @@
 // Note:
 // Dilarang menggunakan build-in function
+// Diperbolehkan menggunakan converter string, push, pop, unshift, dan shift
 
 function sorting(array) {
   // function ini akan mengembalikan sekumpulan number, string, dan boolean yang bernilai truly dan terurut secara naik (A-Z)
