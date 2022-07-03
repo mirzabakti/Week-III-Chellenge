@@ -11,12 +11,13 @@ function switchString(string) {
   // deteksi uppercase / lowercase
   // to uppercase / lowercase
   // menggabungkan karakter (result +=)
-  
+
   let result = "";
 
-  for (let i = 0; i < string.length; i++) {
-    string[i] == string[i].toUpperCase() ? result += string[i].toLowerCase() :
-    (string[i] == string[i].toLowerCase()) ? result += string[i].toUpperCase() : null;
+  for (let i = 0; i < string.length; i++) { // looping argument
+    // nested ternary
+    string[i] == string[i].toUpperCase() ? result += string[i].toLowerCase() : // jika huruf adalah huruf besar, ubah jadi huruf kecil
+    (string[i] == string[i].toLowerCase()) ? result += string[i].toUpperCase() : null; // jika huruf adalah huruf kecil, ubah jadi huruf besar. selain itu, null
   }
   return result;
 }
